@@ -13,6 +13,9 @@ footer{
     text-align: center ;
     color: #666;
 }
+.etq{
+    font-size: 10px;
+}
 .banner{
     width: 100%;
 }
@@ -26,7 +29,10 @@ footer{
     font-size: 24px;
     text-align: center ;
     color: #666;
-    font-weight: bold;;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-top: 0%;
+    margin-bottom: 0%;
 }
 .boton{
     display: flex;
@@ -107,7 +113,7 @@ footer{
 @media (min-width: 361px ){
     .items-venta{
         padding: 5%;
-        width: 100%;
+        width: 90%;
 
     }
     .items-venta img{
@@ -161,15 +167,15 @@ footer{
     .login{
         background-color: #ebebeb;
     }    
-/*    .imagen-completa{  
+    .imagen-completa{  
         box-shadow: 0px 0px 10px #666;
-        padding: 5px;
+/*        padding: 5px;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
         max-width: 100%;
-    }
-*/    .volver{
+*/    }
+    .volver{
         font-family: roboto;
         font-size: 14px;
         text-align: center;
