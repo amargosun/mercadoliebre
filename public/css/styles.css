@@ -1,0 +1,233 @@
+header,
+main,
+footer{
+    font-family: 'Roboto';
+}
+
+.cabe{
+    display: flex;
+}
+.detalle{
+    width: 100%;
+    font-size: 12px;
+    text-align: center ;
+    color: #666;
+}
+.banner{
+    width: 100%;
+}
+.body-global{
+    width: 100%;
+    background-color: #eac926;
+    margin: 0px;
+}
+.titulares{
+    width: 100%;
+    font-size: 24px;
+    text-align: center ;
+    color: #666;
+    font-weight: bold;;
+}
+.boton{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background-color: #1259c3;
+    border-radius: 7px;
+    color: white;
+    font-size: 120%;
+    text-align: center;
+    padding: 1.5%;
+    border: solid #03264C;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 50%;
+}
+.search{
+    display: flex;
+    flex-direction:row;
+    width: 60%;
+    height: 35px;
+    margin-left: 2%;
+    margin-right: 0;
+}
+.search button{
+    width: 35px;
+    height: 35px;
+    background-color: #1259c3;
+    margin-right: auto;        
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;    
+    justify-content: center;
+}
+.search input{
+    width:100%;
+    margin-left: 0px;
+}
+.descripciones{
+    font-size: 16px;
+    color: #666;
+}
+footer{
+    text-align: center;
+
+}
+.iconos-footer{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1259c3;
+}
+.descripciones-footer{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+}
+.details-footer{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 12px;
+    color: #666;
+    font-weight: bold;
+}
+.copyright{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+@media (min-width: 361px ){
+    .items-venta{
+        padding: 5%;
+        width: 100%;
+
+    }
+    .items-venta img{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .seccion-productos{
+        background-color: #ebebeb;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        flex-wrap:wrap;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        background-color: #FFF;
+        position: relative;
+    }
+    .precio{
+        margin-left: 3px;
+        font-size: 18px;
+        width: 30%; 
+        color: #666;    
+    }
+    .descuentos{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        width: 30%; 
+        color:#39b54a;
+    }
+    .contenedor i{
+        display: flex;
+        font-size: 20px;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #39b54a;
+        color: #39b54a;
+        background-color: #FFF;
+        border-radius: 50%;
+        position: absolute;
+        right: 30px;
+        justify-content: center;
+        align-items: center;
+        top: -20px;
+    }
+    .login{
+        background-color: #ebebeb;
+    }    
+/*    .imagen-completa{  
+        box-shadow: 0px 0px 10px #666;
+        padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        max-width: 100%;
+    }
+*/    .volver{
+        font-family: roboto;
+        font-size: 14px;
+        text-align: center;
+        padding: 3%;
+    }
+    .cuerpo-registro{
+        background-color: #ebebeb;
+        box-shadow: 0px 0px 10px #666;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;        
+        padding: 8px;
+    }
+    .create-form h3{
+        font-family: roboto;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+    }
+    .ingresos{
+        border: 1px solid #ebebeb;
+        border-radius: 5%;
+        margin-bottom: 10px;
+    }
+    .perfil{
+        width: 100%;
+    }
+    .perfil h3{
+        font-family: roboto;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .input{
+        font-size: 14px;
+    }
+    .categorias h3{
+        font-family: roboto;
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .password{
+        margin-bottom: 7px;
+    }
+    .password1{
+        margin-bottom: 10px;
+    }
+        /*.create-form{
+        background-color: #ebebeb;
+    }
+    .control-formulario input{
+        padding: 2px;
+        border: 1px solid #ebebeb;
+    }
+    */
+
+    @media( min-width: 769px){
+    }
+
+    @media (min-width: 1200px){
+    }
+}
