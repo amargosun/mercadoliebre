@@ -111,11 +111,22 @@ footer{
 }
 
 @media (min-width: 361px ){
+    .site{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .menuHamburguesa{
+        display: contents;
+    }
+.descripciones{
+        display: none;
+    }
     .items-venta{
         padding: 5%;
         width: 90%;
-
-    }
+}
     .items-venta img{
         display: flex;
         margin-left: auto;
@@ -222,16 +233,122 @@ footer{
     .password1{
         margin-bottom: 10px;
     }
-        /*.create-form{
-        background-color: #ebebeb;
-    }
-    .control-formulario input{
-        padding: 2px;
-        border: 1px solid #ebebeb;
-    }
-    */
 
     @media( min-width: 769px){
+        .site{
+            display: contents;
+        }
+        .navbar{
+            display: contents;
+        }
+        .boton{
+            display: none;
+        }
+        .items-venta{
+            padding: 5%;
+            width: 90%;   
+        }
+        .items-venta img{
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+            max-width: 100%;
+        }
+        .seccion-productos{
+            background-color: #ebebeb;
+        }
+        .contenedor{
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            background-color: #FFF;
+            position: relative;
+        }
+        .precio{
+            margin-left: 3px;
+            font-size: 18px;
+            width: 30%; 
+            color: #666;    
+        }
+        .descuentos{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            width: 30%; 
+            color:#39b54a;
+        }
+        .contenedor i{
+            display: flex;
+            font-size: 20px;
+            padding: 5px;
+            width: 30px;
+            height: 30px;
+            border: 1px solid #39b54a;
+            color: #39b54a;
+            background-color: #FFF;
+            border-radius: 50%;
+            position: absolute;
+            right: 30px;
+            justify-content: center;
+            align-items: center;
+            top: -20px;
+        }
+        .login{
+            background-color: #ebebeb;
+        }    
+        .imagen-completa{  
+            box-shadow: 0px 0px 10px #666;
+        }
+        .volver{
+            font-family: roboto;
+            font-size: 14px;
+            text-align: center;
+            padding: 3%;
+        }
+        .cuerpo-registro{
+            background-color: #ebebeb;
+            box-shadow: 0px 0px 10px #666;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;        
+            padding: 8px;
+        }
+        .create-form h3{
+            font-family: roboto;
+            font-size: 16px;
+            margin-top: 5px;
+            margin-bottom: 8px;
+        }
+        .ingresos{
+            border: 1px solid #ebebeb;
+            border-radius: 5%;
+            margin-bottom: 10px;
+        }
+        .perfil{
+            width: 100%;
+        }
+        .perfil h3{
+            font-family: roboto;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .input{
+            font-size: 14px;
+        }
+        .categorias h3{
+            font-family: roboto;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        .password{
+            margin-bottom: 7px;
+        }
+        .password1{
+            margin-bottom: 10px;
+        }
     }
 
     @media (min-width: 1200px){
