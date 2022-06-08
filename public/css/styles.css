@@ -6,6 +6,8 @@ footer{
 
 .cabe{
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
 }
 .detalle{
     width: 100%;
@@ -51,17 +53,6 @@ footer{
     margin-right: auto;
 }
 
-.logo{
-    width: 50%;
-}
-.search{
-    display: flex;
-    flex-direction:row;
-    width: 60%;
-    height: 35px;
-    margin-left: 2%;
-    margin-right: 0;
-}
 .search button{
     width: 35px;
     height: 35px;
@@ -111,6 +102,29 @@ footer{
 }
 
 @media (min-width: 361px ){
+    .logo{
+        width: 50%;
+        padding-top: 15px;
+    }
+    .search{
+        display: flex;
+        flex-direction:row;
+        width: 48%;
+        height: 35px;
+        margin-left: 2%;
+        margin-right: 0;
+        padding-top: 18px;
+    }
+    .search button{
+        width: 35px;
+        height: 35px;
+        background-color: #1259c3;
+        margin-right: auto;        
+        color: white;
+        font-size: 80%;
+        border-radius: 7px;    
+        justify-content: center;
+    }
     .site{
         display: none;
     }
@@ -120,13 +134,26 @@ footer{
     .menuHamburguesa{
         display: contents;
     }
-.descripciones{
+    .compra-sin{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .detalle{
+        font-size: 14px;
+    }
+    .descripciones{
         display: none;
+    }
+    .banner{
+        margin-bottom: 0;
     }
     .items-venta{
         padding: 5%;
         width: 90%;
-}
+    }
     .items-venta img{
         display: flex;
         margin-left: auto;
@@ -244,7 +271,36 @@ footer{
         .boton{
             display: none;
         }
-        .items-venta{
+        .logo{
+            width: 33%;
+        }
+        .compra-sin{
+            display: flex;
+            width: 30%;
+            text-align: right;
+            padding-left: 3px;
+            padding-top: 20px;
+            }
+        .search{
+            display: flex;
+            flex-direction:row;
+            width: 33%;
+            height: 35px;
+            margin-left: 2%;
+            margin-right: 0;
+            padding-top: 18px;
+        }
+        .search button{
+            width: 35px;
+            height: 35px;
+            background-color: #1259c3;
+            margin-right: auto;        
+            color: white;
+            font-size: 80%;
+            border-radius: 7px;    
+            justify-content: center;
+        }
+            .items-venta{
             padding: 5%;
             width: 90%;   
         }
