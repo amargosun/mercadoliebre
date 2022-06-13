@@ -264,6 +264,7 @@ footer{
     @media( min-width: 769px){
         .site{
             display: contents;
+            
         }
         .navbar{
             display: contents;
@@ -280,7 +281,7 @@ footer{
             text-align: right;
             padding-left: 3px;
             padding-top: 20px;
-            }
+        }
 
         .search{
             display: flex;
