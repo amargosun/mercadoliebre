@@ -450,11 +450,50 @@ footer{
     }
 
     @media (min-width: 1200px){
+        .site-navbar{
+            display: flex;
+            width: 100%;
+            flex-wrap: wrap;
+            margin-right: 0px;
+            }
         .site{
-            display: contents;
+            display: flex;
+            width: 50%;
+            flex-wrap: wrap;
+            margin-right: 0px;
+            }
+        .site ul{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            }
+        .site li{
+            display: block;
+            flex-wrap: wrap;
+            width: 25%;
+            margin: 0px;
+            padding: 0px;
         }
         .navbar{
-            display: contents;
+            display: flex;
+            width: 50%;
+            flex-wrap: wrap;
+        }
+        .navbar ul{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            }
+        .navbar li{
+            display: block;
+            flex-wrap: wrap;
+            width: 33%;
+            text-align: center;
+            padding: 0%;
         }
         .boton{
             display: none;
